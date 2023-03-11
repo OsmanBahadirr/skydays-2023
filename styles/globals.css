@@ -54,6 +54,10 @@
       rgba(2, 198, 203, 1) 49%,
       rgba(255, 255, 255, 1) 49%
     );
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .home-page_titlebox {

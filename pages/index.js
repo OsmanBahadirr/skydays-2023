@@ -9,15 +9,15 @@ import LastPage from "../components/LastPage";
 
 export default function Home() {
   return (
-    <div className=" min-h-screen overflow-x-hidden">
-      <HomePage />
-      <WhatIsPage />
-      <WhatsOnPage />
-      <SeminarsPage />
-      <SpeakersPage />
-      <GalleryPage />
-      <SponsorsPage />
-      <LastPage />
+    <div className="h-screen overflow-x-hidden overflow-y-auto snap-mandatory snap-y ">
+      <HomePage/>
+      <WhatIsPage/>
+      <WhatsOnPage/>
+      <SeminarsPage/>
+      <SpeakersPage/>
+      <GalleryPage/>
+      <SponsorsPage/>
+      <LastPage/>
     </div>
   )
 }

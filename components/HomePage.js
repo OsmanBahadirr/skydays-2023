@@ -1,15 +1,14 @@
-import Image from "next/image";
 import React from "react";
-import background from "./images/page_1_background.png";
 
 const HomePage = () => {
   return (
-    <div className="h-screen home flex flex-col items-center justify-between text-white pt-24">
+    <div className="min-h-screen home flex flex-col items-center justify-between text-white pt-10 sm:pt-16 md:pt-24 snap-start">
+
       <div className=" flex flex-col items-end justify-center  text-7xl sm:text-9xl md:text-[10rem] font-extrabold relative home-page_titlebox py-5 mt-10 md:mt-20">
-        <div className=" z-10 home-page_title bg-clip-text text-transparent w-full h-full flex items-center justify-center">
+        <div className=" z-10 home-page_title w-full h-full flex items-center justify-center">
           SKYDAYS
         </div>
-        <div className=" z-10 text-sm w-full md:text-3xl font-semibold flex items-center justify-center home-page_title text-transparent bg-clip-text">
+        <div className=" z-10 text-sm w-full md:text-3xl font-semibold flex items-center justify-center home-page_title">
           TÜRKİYE NİN EN BÜYÜK SİBER GÜVENLİK ZİRVESİ
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const SeminarsPage = () => {
   return (
-    <div className=' h-screen bg-black text-white flex flex-col justify-evenly items-center gap-16 md:gap-40 px-5 md:px-20 lg:px-40 text-sm md:text-2xl font-medium md:font-bold py-20'>
+    <div className=' h-screen bg-black text-white flex flex-col justify-evenly items-center gap-16 md:gap-40 px-2 sm:px-5 md:px-20 lg:px-40 text-xs md:text-2xl font-light sm:font-medium md:font-bold py-20 snap-start'>
       <div className=' text-3xl md:text-7xl font-bold'>
         SEMİNERLER
       </div>
