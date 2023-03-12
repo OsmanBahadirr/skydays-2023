@@ -5,7 +5,7 @@ import speakerImage from "./images/konuşmacı.png"
 const SpeakersPage = () => {
   return (
     <div className=' min-h-screen konusmacilar text-white flex flex-col items-center justify-evenly  snap-start'>
-      <div className=' text-3xl md:text-7xl font-bold'>
+      <div className=' text-xl md:text-5xl font-extrabold'>
         KONUŞMACILAR
       </div>
 

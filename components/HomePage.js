@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen home flex flex-col items-center justify-between text-white pt-10 sm:pt-16 md:pt-24 snap-start">
 
-      <div className=" flex flex-col items-end justify-center  text-7xl sm:text-9xl md:text-[10rem] font-extrabold relative home-page_titlebox py-5 mt-10 md:mt-20">
+      <div className=" flex flex-col items-end justify-center  text-4xl sm:text-8xl md:text-[7rem] font-extrabold relative home-page_titlebox py-5 mt-10 md:mt-20">
         <div className=" z-10 home-page_title w-full h-full flex items-center justify-center">
           SKYDAYS
         </div>

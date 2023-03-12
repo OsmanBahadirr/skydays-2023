@@ -6,7 +6,7 @@ const SponsorsPage = () => {
   return (
     <div className=' h-screen sponsors text-white flex flex-col justify-between items-center py-20 md:py-32 snap-start'>
 
-      <div className='text-5xl md:text-7xl font-bold'>
+      <div className='text-xl md:text-6xl font-extrabold'>
         SPONSORLAR
       </div>
 

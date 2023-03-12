@@ -3,7 +3,7 @@ import React from "react";
 const WhatIsPage = () => {
   return (
     <div className=" min-h-screen nedir text-white flex flex-col items-center justify-center gap-10 md:gap-20 p-10 md:px-40 font-bold snap-start">
-      <div className=" text-4xl md:text-8xl ">NEDİR?</div>
+      <div className=" text-4xl md:text-7xl font-extrabold ">NEDİR?</div>
       <div className=" text-lg md:text-2xl text-center font-semibold">
         Bu yıl 4. kez düzenlenecek olan SKY DAYS, 25 Nisan tarihinde YapıKredi
         Teknoloji’nin ana sponsorluğunda gerçekleşecek bir siber güvenlik
