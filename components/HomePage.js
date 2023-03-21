@@ -1,4 +1,7 @@
+import Image from "next/image";
 import React from "react";
+import ytüLogo from "./images/ytü_logo.png"
+import skylabLogo from "./images/skylab_logo.png"
 
 const HomePage = () => {
   return (
@@ -7,24 +10,23 @@ const HomePage = () => {
         <div className=" z-10 home-page_title w-full h-full flex items-center justify-center">
           SKYDAYS
         </div>
-        <div className=" z-10 text-sm w-full md:text-3xl font-semibold flex items-center justify-center home-page_title">
+        <div className=" z-10 text-sm w-full md:text-3xl font-semibold flex items-center justify-center home-page_title font-sans">
           TÜRKİYE NİN EN BÜYÜK SİBER GÜVENLİK ZİRVESİ
         </div>
       </div>
 
       <div className=" w-full flex justify-end pr-10">
-        <div className=" bg-[#00A99D] p-2 md:p-6 pr-10 md:pr-40 text-sm md:text-base">
+        <div className=" bg-[#00A99D] p-2 md:p-6 pr-10 md:pr-40 text-sm md:text-base font-sans">
           25 NİSAN - YILDIZ TEKNİK ÜNİVERSİTESİ TARİHİ HAMAM
         </div>
       </div>
 
-      <div className=" mb-8 flex gap-5 text-lg md:text-4xl font-semibold md:font-bold">
-        <div className=" flex gap-2">
-          <div>*</div>
-          <div>YTÜ</div>
+      <div className=" mb-8 flex gap-5 text-lg md:text-5xl font-semibold md:font-bold">
+        <div className=" flex gap-2 text-black">
+          <Image className=" w-24 h-10 md:w-52 md:h-20" alt="konuşmacı" src={ytüLogo}/>
         </div>
-        <div className=" flex gap-2">
-          <div>ROKET</div>
+        <div className=" flex gap-2 items-center">
+          <Image className=' w-10 h-10 md:w-20 md:h-20' alt="konuşmacı" src={skylabLogo}/>
           <div>SKYLAB</div>
         </div>
       </div>

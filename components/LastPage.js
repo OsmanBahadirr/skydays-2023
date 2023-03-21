@@ -1,4 +1,7 @@
+import Image from "next/image";
 import React from "react";
+import ytüLogo from "./images/ytü_logo.png"
+import skylabLogo from "./images/skylab_logo.png"
 
 const LastPage = () => {
   return (
@@ -19,16 +22,17 @@ const LastPage = () => {
         </div>
       </div>
 
-      <div className=" mb-8 flex gap-5 text-lg md:text-4xl font-semibold md:font-bold">
-        <div className=" flex gap-2">
-          <div>*</div>
-          <div>YTÜ</div>
+      <div className=" mb-8 flex gap-5 text-lg md:text-5xl font-semibold md:font-bold relative">
+        <div className=" absolute top-0 left-0 w-full h-full bg-black/50"></div>
+        <div className=" flex gap-2 bg-black ">
+          <Image className=" w-24 h-10 md:w-52 md:h-20 " alt="konuşmacı" src={ytüLogo}/>
         </div>
-        <div className=" flex gap-2">
-          <div>ROKET</div>
+        <div className=" flex gap-2 items-center text-white">
+          <Image className=' w-10 h-10 md:w-20 md:h-20' alt="konuşmacı" src={skylabLogo}/>
           <div>SKYLAB</div>
         </div>
       </div>
+
     </div>
   );
 };
