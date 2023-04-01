@@ -13,26 +13,26 @@ const SpeakersPage = () => {
 
         <div>
           <Image className=' w-20 md:w-[150px] border border-[#7BE9D3]' alt="konuşmacı" src={speakerImage} width={150}  />
-          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
-          <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
+          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>????? ?????</div>
+          <div className=' text-xs text-zinc-600'>??????????.???</div>
         </div>
 
         <div>
           <Image className=' w-20 md:w-[150px] border border-[#7BE9D3]' alt="konuşmacı" src={speakerImage} width={150}  />
-          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
-          <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
+          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>????? ?????</div>
+          <div className=' text-xs text-zinc-600'>??????????.???</div>
         </div>
 
         <div>
           <Image className=' w-20 md:w-[150px] border border-[#7BE9D3]' alt="konuşmacı" src={speakerImage} width={150}   />
-          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
-          <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
+          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>????? ?????</div>
+          <div className=' text-xs text-zinc-600'>??????????.???</div>
         </div>
 
         <div>
           <Image className=' w-20 md:w-[150px] border border-[#7BE9D3]' alt="konuşmacı" src={speakerImage} width={150}   />
-          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
-          <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
+          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>????? ?????</div>
+          <div className=' text-xs text-zinc-600'>??????????.???</div>
         </div>
 
       </div>
