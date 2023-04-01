@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import speakerImage from "./images/konuşmacı.png"
+import speakerImage from "./images/hidden.jpg"
 
 const SpeakersPage = () => {
   return (
@@ -12,49 +12,25 @@ const SpeakersPage = () => {
       <div className=' grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-10'>
 
         <div>
-          <Image className=' w-20 md:w-[150px]' alt="konuşmacı" src={speakerImage} width={150}  />
+          <Image className=' w-20 md:w-[150px] border border-[#7BE9D3]' alt="konuşmacı" src={speakerImage} width={150}  />
           <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
           <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
         </div>
 
         <div>
-          <Image className=' w-20 md:w-[150px]' alt="konuşmacı" src={speakerImage} width={150}  />
+          <Image className=' w-20 md:w-[150px] border border-[#7BE9D3]' alt="konuşmacı" src={speakerImage} width={150}  />
           <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
           <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
         </div>
 
         <div>
-          <Image className=' w-20 md:w-[150px]' alt="konuşmacı" src={speakerImage} width={150}   />
+          <Image className=' w-20 md:w-[150px] border border-[#7BE9D3]' alt="konuşmacı" src={speakerImage} width={150}   />
           <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
           <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
         </div>
 
         <div>
-          <Image className=' w-20 md:w-[150px]' alt="konuşmacı" src={speakerImage} width={150}   />
-          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
-          <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
-        </div>
-
-        <div>
-          <Image className=' w-20 md:w-[150px]' alt="konuşmacı" src={speakerImage} width={150}   />
-          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
-          <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
-        </div>
-
-        <div>
-          <Image className=' w-20 md:w-[150px]' alt="konuşmacı" src={speakerImage} width={150}   />
-          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
-          <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
-        </div>
-
-        <div>
-          <Image className=' w-20 md:w-[150px]' alt="konuşmacı" src={speakerImage} width={150}   />
-          <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
-          <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
-        </div>
-
-        <div>
-          <Image className=' w-20 md:w-[150px]' alt="konuşmacı" src={speakerImage} width={150}   />
+          <Image className=' w-20 md:w-[150px] border border-[#7BE9D3]' alt="konuşmacı" src={speakerImage} width={150}   />
           <div className=' text-sm md:text-base font-normal md:font-medium mt-2'>CEMAL TANER</div>
           <div className=' text-xs text-zinc-600'>cemaltaner.com</div>
         </div>

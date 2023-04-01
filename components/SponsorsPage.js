@@ -10,8 +10,8 @@ const SponsorsPage = () => {
         SPONSORLAR
       </div>
 
-      <div className=''>
-        <Image alt='sponsor' src={sponsor} width={300}  />
+      <div className='text-xl md:text-6xl font-extrabold'>
+        YAKINDA
       </div>
 
       <div></div>
