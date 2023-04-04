@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import speakerImage from "./images/hidden.jpg"
 
 const SpeakersPage = () => {
   return (

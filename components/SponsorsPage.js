@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import sponsor from "./images/sponsor.png"
 
 const SponsorsPage = () => {
   return (

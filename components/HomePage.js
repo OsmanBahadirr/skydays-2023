@@ -17,7 +17,7 @@ const HomePage = () => {
 
       <div className=" w-full flex justify-end pr-10">
         <div className=" bg-[#00A99D] p-2 md:p-6 pr-10 md:pr-40 text-sm md:text-base font-sans">
-          25 NİSAN - YILDIZ TEKNİK ÜNİVERSİTESİ ELEKTRİK-ELEKTRONİK FAKÜLTESİ KONFERANS SALONU
+          3 MAYIS - YILDIZ TEKNİK ÜNİVERSİTESİ ELEKTRİK-ELEKTRONİK FAKÜLTESİ KONFERANS SALONU
         </div>
       </div>
 
@@ -31,9 +31,9 @@ const HomePage = () => {
         </div>
       </div>
 
-      <button className=" bg-[#00A99D] absolute top-5 right-5 rounded-lg py-2 px-4 font-medium md:font-bold text-sm md:text-lg">
+      <a className=" bg-[#00A99D] absolute top-5 right-5 rounded-lg py-2 px-4 font-medium md:font-bold text-sm md:text-lg hover:cursor-pointer" href="https://forms.office.com/r/8Mjwq3v9Y0" target="_blank">
         KAYIT OL
-      </button>
+      </a>
     </div>
   );
 };
