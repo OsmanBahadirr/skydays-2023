@@ -2,7 +2,7 @@ import React from "react";
 
 const WhatsOnPage = () => {
   return (
-    <div className=" h-screen nelervar text-white flex flex-col justify-evenly items-center font-bold p-10 md:px-40 gap-20 lg:gap-40 snap-start">
+    <div className=" h-screen nelervar text-white flex flex-col justify-center items-center font-bold px-10 md:px-40 gap-20 lg:gap-40 snap-start">
       <div className=" text-5xl md:text-5xl font-extrabold">NELER VAR?</div>
       <div className=" flex flex-col border-0 md:border-l-2 border-white gap-10 text-base md:text-lg pl-0 md:pl-10">
 
