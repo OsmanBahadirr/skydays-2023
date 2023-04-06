@@ -12,6 +12,7 @@ const GalleryPage = () => {
   return (
     <div className=" h-screen bg-black relative snap-start">
       <Image
+        priority
         alt="ımage"
         src={gallery1}
         className={`${
@@ -19,6 +20,7 @@ const GalleryPage = () => {
         } h-screen  object-cover absolute top-0 grayscale`}
       />
       <Image
+        priority
         alt="ımage"
         src={gallery2}
         className={`${
@@ -26,6 +28,7 @@ const GalleryPage = () => {
         } h-screen  object-cover absolute top-0 grayscale`}
       />
       <Image
+        priority
         alt="ımage"
         src={gallery3}
         className={`${
@@ -33,6 +36,7 @@ const GalleryPage = () => {
         } h-screen  object-cover absolute top-0 grayscale`}
       />
       <Image
+        priority
         alt="ımage"
         src={gallery4}
         className={`${
@@ -40,6 +44,7 @@ const GalleryPage = () => {
         } h-screen  object-cover absolute top-0 grayscale`}
       />
       <Image
+        priority
         alt="ımage"
         src={gallery5}
         className={`${
