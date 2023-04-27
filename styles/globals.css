@@ -2,72 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	@apply bg-black;
+}
+
 @layer components {
-  .home {
-    background-image: url("../components/images/page_1_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+	.home {
+		background-image: url('../components/images/page_1_background.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
 
-  .nedir {
-    background-image: url("../components/images/page_2_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+	.nedir {
+		background-image: url('../components/images/page_2_background.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
 
-  .nelervar {
-    background-image: url("../components/images/page_3_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+	.nelervar {
+		background-image: url('../components/images/page_3_background.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
 
-  .konusmacilar {
-    background-image: url("../components/images/page_5_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+	.konusmacilar {
+		background-image: url('../components/images/page_5_background.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
 
-  .gallery {
-    background-image: url("../components/images/page_6_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+	.gallery {
+		background-image: url('../components/images/page_6_background.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
 
-  .sponsors {
-    background-image: url("../components/images/page_7_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+	.sponsors {
+		background-image: url('../components/images/page_7_background.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
 
-  .home-page_title {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 1) 12%,
-      rgba(2, 198, 203, 1) 12%,
-      rgba(2, 198, 203, 1) 49%,
-      rgba(255, 255, 255, 1) 49%
-    );
-    background-clip: text;
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+	.home-page_title {
+		background: rgb(255, 255, 255);
+		background: linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 1) 12%,
+			rgba(2, 198, 203, 1) 12%,
+			rgba(2, 198, 203, 1) 49%,
+			rgba(255, 255, 255, 1) 49%
+		);
+		background-clip: text;
+		color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
 
-  .home-page_titlebox {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0) 12%,
-      #CC0A0A 12%,
-      #CC0A0A 49%,
-      rgba(255, 255, 255, 0) 49%
-    );
-  }
+	.home-page_titlebox {
+		background: rgb(255, 255, 255);
+		background: linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 0) 12%,
+			#cc0a0a 12%,
+			#cc0a0a 49%,
+			rgba(255, 255, 255, 0) 49%
+		);
+	}
 }
